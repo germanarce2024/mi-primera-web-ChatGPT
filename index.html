@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaao Asesori Sistemas</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+   
+
+    <script defer src="scripts.js"></script>
+  </head>
+  <body>
+    <!-- principio -->
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img height="50" width="50" src="images/img-1.jpg" alt="sistemas" />
+          <div class="logotype">Gaao <br />Asesoria Sistemas</div>
+        </a>
+        <!-- menu para movil -->
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="abrir menú" />
+        </button>
+        <!-- menu -->
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon3.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="#profile" class="selected">Perfil</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section >
+      <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+          <div class="profile-info">
+            <h1 class="profile-title">Ing. German Arce</h1>
+            <p class="profile-details">
+              Estudios en Ingeniería de Sistemas Computacionales y Técnico
+              profesional en administración - Análisis de Sistemas con
+              conocimientos en redes y seguridad, auditoria informática
+            </p>
+            <button class="profile-btn">Descargar cv</button>
+          </div>
+          <span class="profile-img-section">
+            <img
+              class="profile-img"
+              src="img/professional-profile.png"
+              alt="sistemas"
+            />
+            <div class="profile-img-line"></div>
+          </span>
+        </section>
+      </div>
+    </section>
+
+    <!-- PARTE DE EXPERIENCIA -->
+    <section class="experiences" id="experience">
+      <img src="img/wave.svg" alt="división" class="wave" />
+      <div class="experiences-body">
+        <h2 class="experiences-title">Experiencia</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2022-2023</div>
+            <div class="experience-company">Medical Solutions Colombia S.A</div>
+            <div class="experience-position">Ingeniero Soporte</div>
+            <div class="experience-description">
+              Soporte y Asesoría Técnica Remota de la instalación sistemas
+              operativos, mantenimiento software y aplicativos para equipos de
+              operadores IT y médicos afiliados.
+            </div>
+          </div>
+
+          <div class="experience experience_left">
+            <div class="experience-date">2021-2023</div>
+            <div class="experience-company">Nettz Colombia S.A.S</div>
+            <div class="experience-position">Soporte Técnico</div>
+            <div class="experience-description">
+              Soporte en mantenimiento de computadores, servicio técnico en
+              instalaciones de dispositivos Teltonika “GPS” para neveras Zenú
+              nivel nacional, Innovid Colombia S.A.S.
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2018-2023</div>
+            <div class="experience-company">GAO Asesoría de Sistemas</div>
+            <div class="experience-position">Ingeniero Sistemas</div>
+            <div class="experience-description">
+              Ingeniería Soporte IT a diferentes empresas en las ciudades de
+              Villavicencio y Bogotá.
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/wave.svg" alt="división" class="wave wave_bottom" />
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">Excel Avanzado</li>
+          <li class="skills-skill">Macros Excel</li>
+          <li class="skills-skill">Auditoria Informática</li>
+          <li class="skills-skill">Redes y Seguridad</li>
+          <li class="skills-skill">SQL Server</li>
+          <li class="skills-skill">Office</li>
+          <li class="skills-skill">Linux</li>
+          <li class="skills-skill">Photoshop</li>
+          <li class="skills-skill">Informática Forence</li>
+          <li class="skills-skill">Inews</li>
+          <li class="skills-skill">Avid</li>
+          <li class="skills-skill">VSN</li>
+          <li class="skills-skill">Cybersecurity</li>
+        </ul>
+      </section>
+    </div>
+    <!-- SECCION CONTACTOS Y REDES -->
+
+    <!-- <div class="horizontal-padding vertical-padding">-->
+    <section class="contact" id="contact">
+      <h2 class="contact-title">Contacto</h2>
+      <div class="contact-details">
+        <div class="contact-details-group">
+          <p class="contact-label">Dirección</p>
+          <p class="contact-text">Carrera 119 # 80-22</p>
+          <p class="contact-text">Bogotá - Colombia</p>
+        </div>
+
+        <div class="contact-details-group">
+          <p class="contact-label">Emails</p>
+          <p class="contact-text">gaoasesoriasistemas@gmail.com</p>
+          <p class="contact-text">germanarce697@gmail.com</p>
+        </div>
+
+        <div class="contact-details-group">
+          <p class="contact-text">Deje su mensaje y con gusto le responderé</p>
+        </div>
+      </div>
+      <!-- Formulario -->
+      <form class="contact-form">
+        <div class="contact-form-group">
+          <label for="name">Nombre</label>
+          <input required type="text" name="name" id="name" />
+        </div>
+
+        <div class="contact-form-group">
+          <label for="email">Email</label>
+          <input required type="email" name="email" id="email" />
+        </div>
+
+        <div class="contact-form-group">
+          <label for="message">Mensaje</label>
+          <textarea required name="message" id="message" rows="10"></textarea>
+        </div>
+
+        <button type="submit" class="contact-form-sumit">Enviar</button>
+
+        <!-- REDES -->
+      </form>
+      <nav class="social">
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/" target="_blank">
+              <img src="img/facebook.svg" alt="Facebook profile" />
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+              <img src="img/linkedin.svg" alt="LinkedIn profile" />
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="img/instagram.svg" alt="Instagram" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </body>
+</html>
